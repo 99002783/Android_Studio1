@@ -5,7 +5,7 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@android:id/text1"
+        android:id="@+id/textviewRow"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="@color/design_default_color_primary_dark"
@@ -16,11 +16,8 @@
         android:text="sample text"
         android:textAppearance="?android:attr/textAppearanceListItemSmall"
         android:textColor="#fff"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.136" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
