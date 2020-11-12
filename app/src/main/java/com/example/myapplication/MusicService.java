@@ -20,12 +20,13 @@ public class MusicService extends Service {
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
         super.onStartCommand(intent, flags, startId);
-        MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.music);
-        mediaPlayer.start();
+       // MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.music);
+       // mediaPlayer.start();
         return START_STICKY;
     }
     @Override
     public void onDestroy() {
+
         super.onDestroy();
         Toast.makeText(this, "service destroyed", Toast.LENGTH_SHORT).show();
 
